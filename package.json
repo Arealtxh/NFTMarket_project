@@ -1,0 +1,16 @@
+{
+  "name": "nft-market-event-listener",
+  "version": "1.0.0",
+  "description": "NFT Market事件监听器",
+  "main": "event-listener.js",
+  "scripts": {
+    "start": "node event-listener.js",
+    "dev": "nodemon event-listener.js"
+  },
+  "dependencies": {
+    "ethers": "^6.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
